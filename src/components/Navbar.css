@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items:nth-child(2),
+.nav-items:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  text-transform: uppercase;
+  margin-right: 4rem;
+  text-decoration: none;
+  color: white;
+  /* font-family: "Work Sans", sans-serif; */
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.05rem;
+}
+
+.reviews {
+  margin-right: 0;
+}
+
+.search {
+  margin-right: 1rem;
+}
+
+button {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 4rem;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  color: rgb(8, 7, 26);
+}
