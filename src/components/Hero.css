@@ -1,7 +1,0 @@
-.hero-container {
-  min-height: 100vh;
-  background: url(../images/hero.svg) no-repeat;
-  padding: 0 3.75rem;
-  outline: 1px solid red;
-  padding-top: 2.75rem;
-}
