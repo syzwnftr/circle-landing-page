@@ -1,7 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
+
 .hero-container {
   min-height: 100vh;
   background: url(../../images/hero.svg) no-repeat;
   padding: 0 3.75rem;
   padding-top: 2.5rem;
   outline: 1px solid red;
+}
+
+.hero-desc {
+  /* outline: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.hero-desc-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+h1 {
+  font-family: monospace;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 2rem;
+  line-height: 1.1;
+}
+
+h3 {
+  width: 400px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+
+.btnStart {
+  margin-top: 2rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  background: #ebc7b5;
+  margin-top: 3rem;
+}
+
+.btnStart:before {
+  background: #fff;
 }
