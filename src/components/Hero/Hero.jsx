@@ -1,6 +1,10 @@
 import Navbar from "../Navbar/Navbar";
 import './Hero.css';
-import Men from '../../images/hero_illustr.svg'
+import Men from '../../images/hero_illustr.svg';
+import Logo1 from '../../images/hero_logo-01.svg'
+import Logo2 from '../../images/hero_logo-02.svg'
+import Logo3 from '../../images/hero_logo-03.svg'
+import Logo4 from '../../images/hero_logo-04.svg'
 
 const Hero = () => {
     return (
@@ -15,6 +19,20 @@ const Hero = () => {
                 </div>
                 <div className="hero-desc-right">
                     <img src={Men} alt="" />
+                </div>
+            </div>
+            <div className="hero-logo-wrapper">
+                <div className="hero-logo">
+                    <img src={Logo1} alt="" />
+                </div>
+                <div className="hero-logo">
+                    <img src={Logo2} alt="" />
+                </div>
+                <div className="hero-logo">
+                    <img src={Logo3} alt="" />
+                </div>
+                <div className="hero-logo">
+                    <img src={Logo4} alt="" />
                 </div>
             </div>
         </div>

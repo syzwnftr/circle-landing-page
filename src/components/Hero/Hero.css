@@ -42,13 +42,23 @@ h3 {
 }
 
 .btnStart {
-  margin-top: 2rem;
-  padding-top: 1.3rem;
-  padding-bottom: 1.3rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  border-radius: 3rem;
   background: #ebc7b5;
   margin-top: 3rem;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 1px;
 }
 
 .btnStart:before {
   background: #fff;
+}
+
+.hero-logo-wrapper {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
