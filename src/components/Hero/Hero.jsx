@@ -5,6 +5,7 @@ import Logo1 from '../../images/hero_logo-01.svg'
 import Logo2 from '../../images/hero_logo-02.svg'
 import Logo3 from '../../images/hero_logo-03.svg'
 import Logo4 from '../../images/hero_logo-04.svg'
+import Plane from '../../images/hero_illustr-plane.svg'
 
 const Hero = () => {
     return (
@@ -19,6 +20,7 @@ const Hero = () => {
                 </div>
                 <div className="hero-desc-right">
                     <img src={Men} alt="" />
+                    <img src={Plane} alt="" className="hero-plane" />
                 </div>
             </div>
             <div className="hero-logo-wrapper">
