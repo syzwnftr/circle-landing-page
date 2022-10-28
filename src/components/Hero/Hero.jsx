@@ -8,6 +8,9 @@ import Logo4 from '../../images/hero_logo-04.svg';
 import Plane from '../../images/hero_illustr-plane.svg';
 import Leave1 from '../../images/leaves-1.svg';
 import Leave2 from '../../images/leaves-2.svg';
+import Numb from '../../images/hero_numb.svg';
+import Dash from '../../images/dash-vertical.svg';
+
 
 const Hero = () => {
     return (
@@ -39,6 +42,33 @@ const Hero = () => {
                 </div>
                 <div className="hero-logo">
                     <img src={Logo4} alt="" />
+                </div>
+            </div>
+            <div className="hero-stat">
+                <div className="hero-stat-wrapper">
+                    <div className="hero-stat-num">
+                        <h3 className="t">200+</h3>
+                        <img src={Numb} alt="" className="numb" />
+                    </div>
+                    <p>Ideal courses to sell physical and digital products from your site
+                        on WordPress.com</p>
+                    <img src={Dash} alt="" className="dash" />
+
+                </div>
+                <div className="hero-stat-wrapper">
+                    <div className="hero-stat-num">
+                        <h3 className="t">150+</h3>
+                        <img src={Numb} alt="" className="numb" />
+                    </div>
+                    <p>Experts share their knowledge on building and growing a web presence.</p>
+                    <img src={Dash} alt="" className="dash" />
+                </div>
+                <div className="hero-stat-wrapper">
+                    <div className="hero-stat-num">
+                        <h3 className="t">10k+</h3>
+                        <img src={Numb} alt="" className="numb" />
+                    </div>
+                    <p>Small businesses and online stores call WordPress.com home. No code, no complexities.</p>
                 </div>
             </div>
         </div>
