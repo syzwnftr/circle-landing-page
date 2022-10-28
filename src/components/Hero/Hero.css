@@ -55,6 +55,22 @@ h3 {
   background: #fff;
 }
 
+button {
+  animation: btnStartAnimation 1s ease-in-out;
+}
+
+@keyframes btnStartAnimation {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .hero-desc-right {
   position: relative;
 }
