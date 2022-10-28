@@ -58,6 +58,11 @@ h3 {
   position: relative;
 }
 
+.men {
+  position: relative;
+  z-index: 2;
+}
+
 .hero-plane {
   position: absolute;
   top: 5px;
@@ -72,7 +77,33 @@ h3 {
   }
 
   100% {
-    transform: translate(0%, 0%);
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+.leave-1 {
+  position: absolute;
+  bottom: 30px;
+  right: 69px;
+  animation: leaves 1s ease-in-out;
+}
+
+.leave-2 {
+  position: absolute;
+  bottom: 40px;
+  left: -8px;
+  animation: leaves 1s ease-in-out;
+}
+
+@keyframes leaves {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
     opacity: 1;
   }
 }
