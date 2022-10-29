@@ -31,7 +31,7 @@ const Hero = () => {
                     <img src={Leave2} alt="" className="leave-2" />
                 </div>
             </div>
-            <Fade duration='3000' direction="up" triggerOnce="true" fraction='1'>
+            <Fade duration='1500' direction="up" triggerOnce="true" fraction='1'>
                 <div className="hero-logo-wrapper">
                     <div className="hero-logo">
                         <img src={Logo1} alt="" />
@@ -49,7 +49,7 @@ const Hero = () => {
             </Fade>
 
 
-            <Fade duration='1500' direction="up" triggerOnce="true">
+            <Fade duration='1500' direction="up" triggerOnce="true" fraction='0.8'>
                 <div className="hero-stat">
                     <div className="hero-stat-wrapper">
                         <div className="hero-stat-num">

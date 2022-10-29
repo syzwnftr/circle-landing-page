@@ -126,7 +126,8 @@ button {
 }
 
 .hero-logo-wrapper {
-  margin-top: 3rem;
+  /* outline: 1px solid black; */
+  margin-top: 4rem;
   padding: 2rem 0;
   display: flex;
   justify-content: space-around;
