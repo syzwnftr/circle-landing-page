@@ -31,11 +31,11 @@ const Syllabus = () => {
                         </div>
                     </div>
                     <div className="syllabus-items">
-                        <div className="syllabus-arrow arrow-two">
-                            <img src={Arrow} alt="" />
+                        <div className="syllabus-arrow">
+                            <img src={Arrow} alt="" className='arrow-two' />
                         </div>
                         <div className="syllabus-num">
-                            <div className="num-text">02</div>
+                            <div className="num-text two">02</div>
                             <img src={Num2} alt="" />
                         </div>
                         <div className="items-desc">
@@ -45,7 +45,7 @@ const Syllabus = () => {
                     </div>
                     <div className="syllabus-items">
                         <div className="syllabus-num">
-                            <div className="num-text">03</div>
+                            <div className="num-text three">03</div>
                             <img src={Num3} alt="" />
                         </div>
                         <div className="items-desc">

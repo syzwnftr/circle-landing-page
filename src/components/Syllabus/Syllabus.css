@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
 
 .syllabus-container {
-  outline: 1px solid black;
+  outline: 1px solid red;
   margin-top: 10rem;
   padding: 0 3.75rem;
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .syllabus-img {
@@ -28,7 +28,78 @@
 .syllabus-step h2 {
   font-family: "Nunito Sans", sans-serif;
   font-size: 3.3rem;
-  color: rgb(29, 27, 27);
+  color: #333333;
   font-weight: 400;
   line-height: 1.1;
+}
+
+.syllabus-items-container {
+  margin-top: 3rem;
+}
+
+.syllabus-items {
+  /* outline: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.syllabus-num {
+  /* outline: 1px solid blue; */
+  flex-basis: 12%;
+  position: relative;
+}
+
+.num-text {
+  font-size: 1.2rem;
+  z-index: 2;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.syllabus-num img {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.items-desc {
+  /* outline: 1px solid green; */
+  flex-basis: 70%;
+}
+
+.item-title {
+  color: #333333;
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 0;
+}
+
+.item-text {
+  font-size: 1.1rem;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 1rem;
+  line-height: 1.8;
+  color: #5d5a57;
+}
+
+.syllabus-arrow {
+  flex-basis: 15%;
+}
+
+.arrow-two {
+  transform: rotateY(180deg);
+}
+
+.num-text.two {
+  left: 10px;
+}
+
+.num-text.three {
+  top: 5px;
+  left: 18px;
 }
