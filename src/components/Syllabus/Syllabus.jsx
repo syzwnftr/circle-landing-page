@@ -34,7 +34,7 @@ const Syllabus = () => {
                         <div className="syllabus-arrow">
                             <img src={Arrow} alt="" className='arrow-two' />
                         </div>
-                        <div className="syllabus-num">
+                        <div className="syllabus-num num2">
                             <div className="num-text two">02</div>
                             <img src={Num2} alt="" />
                         </div>
@@ -45,14 +45,14 @@ const Syllabus = () => {
                     </div>
                     <div className="syllabus-items">
                         <div className="syllabus-num">
-                            <div className="num-text three">03</div>
-                            <img src={Num3} alt="" />
+                            <div className="num-text">03</div>
+                            <img src={Num1} alt="" />
                         </div>
                         <div className="items-desc">
                             <h3 className="item-title">Feedback from specialists</h3>
-                            <p className="item-text">Our Structure and visualize new knowledge. You send the practical work to the reviewing specialists and receive individual feedback.</p>
+                            <p className="item-text">Structure and visualize new knowledge. You send the practical work to the reviewing specialists and receive individual feedback.</p>
                         </div>
-                        <div className="syllabus-arrow">
+                        <div className="syllabus-arrow arrow-3">
                             <img src={ArrowPlane} alt="" />
                         </div>
                     </div>
@@ -62,4 +62,4 @@ const Syllabus = () => {
     )
 }
 
-export default Syllabus
+export default Syllabus;
