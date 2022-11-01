@@ -1,28 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
 
 .syllabus-container {
-  outline: 1px solid red;
   margin-top: 10rem;
   padding: 0 3.75rem;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .syllabus-img {
-  outline: 1px solid black;
   max-width: 600px;
-  /* position: sticky;
-  top: 100px; */
+  position: sticky;
+  top: 100px;
+  margin-right: 2rem;
 }
 
 .syllabus-img img {
   max-width: 100%;
   height: auto;
-}
-
-.syllabus-step {
-  outline: 1px solid black;
 }
 
 .syllabus-step h2 {
@@ -42,7 +37,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
 }
 
 .syllabus-num {
@@ -88,7 +84,9 @@
 }
 
 .syllabus-arrow {
+  /* outline: 1px solid black; */
   flex-basis: 15%;
+  margin-top: 1rem;
 }
 
 .arrow-two {
@@ -99,7 +97,9 @@
   left: 10px;
 }
 
-.num-text.three {
-  top: 5px;
-  left: 18px;
+.arrow-3 {
+  /* outline: 1px solid black; */
+  position: absolute;
+  top: 0;
+  right: 0;
 }
