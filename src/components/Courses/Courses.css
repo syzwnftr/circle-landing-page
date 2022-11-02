@@ -36,7 +36,7 @@
 .courses-items-wrapper {
   margin-top: 2.7rem;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -48,6 +48,7 @@
   border-radius: 2rem;
   position: relative;
   background: #f8efe5;
+  flex-basis: 100%;
 }
 
 .courses-item:nth-child(1),
