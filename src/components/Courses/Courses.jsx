@@ -14,10 +14,30 @@ const Courses = () => {
             </div>
 
             <div className="courses-items-wrapper">
-                <div className="courses-item">
+                <div className="courses-item design">
                     <div className="courses-item-desc">
                         <h4>Design</h4>
                         <h3>How to make a quality site in WordPress in 40 hours without experience</h3>
+                    </div>
+                    <div className="read-more">
+                        <a href="#">Read More</a>
+                        <img src={ArrowBlue} alt="" />
+                    </div>
+                </div>
+                <div className="courses-item programming">
+                    <div className="courses-item-desc">
+                        <h4>Programming</h4>
+                        <h3>WordPress: How to start in a developer without any basic knowledge </h3>
+                    </div>
+                    <div className="read-more">
+                        <a href="#">Read More</a>
+                        <img src={ArrowBlue} alt="" />
+                    </div>
+                </div>
+                <div className="courses-item seo">
+                    <div className="courses-item-desc">
+                        <h4>Seo</h4>
+                        <h3>Creating dynamic sites with CMS WordPress + SEO for WordPress websites </h3>
                     </div>
                     <div className="read-more">
                         <a href="#">Read More</a>
