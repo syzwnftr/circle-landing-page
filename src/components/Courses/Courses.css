@@ -1,6 +1,6 @@
 .courses-container {
   margin-top: 10rem;
-  padding: 12rem 3.75rem;
+  padding: 11rem 3.75rem;
   border-radius: 3rem;
   border-bottom-left-radius: 3rem;
   background: url("../../images/bg_courses.svg") no-repeat;
@@ -114,7 +114,6 @@
   font-size: 1.2rem;
   color: #3095aa;
   font-weight: 600;
-  letter-spacing: -1px;
 }
 
 .read-more .arrowBlue {
