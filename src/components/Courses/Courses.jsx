@@ -21,7 +21,7 @@ const Courses = () => {
                     </div>
                     <div className="read-more">
                         <a href="#">Read More</a>
-                        <img src={ArrowBlue} alt="" />
+                        <img src={ArrowBlue} alt="" className='arrowBlue' />
                     </div>
                 </div>
                 <div className="courses-item programming">
@@ -31,7 +31,7 @@ const Courses = () => {
                     </div>
                     <div className="read-more">
                         <a href="#">Read More</a>
-                        <img src={ArrowBlue} alt="" />
+                        <img src={ArrowBlue} alt="" className='arrowBlue' />
                     </div>
                 </div>
                 <div className="courses-item seo">
@@ -41,7 +41,7 @@ const Courses = () => {
                     </div>
                     <div className="read-more">
                         <a href="#">Read More</a>
-                        <img src={ArrowBlue} alt="" />
+                        <img src={ArrowBlue} alt="" className='arrowBlue' />
                     </div>
                 </div>
             </div>
