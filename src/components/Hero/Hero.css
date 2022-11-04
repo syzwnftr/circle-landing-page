@@ -3,7 +3,9 @@
 .hero-container {
   min-height: 100vh;
   background: url(../../images/hero.svg) no-repeat;
+  background-size: cover;
   padding: 2.5rem 3.75rem;
+  padding-bottom: 4rem;
   border-bottom-left-radius: 5rem;
   border-bottom-right-radius: 5rem;
 }
