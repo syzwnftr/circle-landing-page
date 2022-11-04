@@ -1,0 +1,36 @@
+h1,
+h2,
+h3,
+h4 {
+  color: black;
+  margin: 0;
+  text-decoration: none;
+}
+
+.reviews-container {
+  outline: 1px solid black;
+  margin-top: 12rem;
+  padding: 0rem 3.75rem;
+}
+
+.reviews-item-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.reviews-item {
+  outline: 1px solid black;
+}
+
+.reviews-ava {
+  text-align: center;
+}
+
+.reviews-ava img {
+  max-width: 120px;
+}
+
+.reviews-desc {
+  text-align: center;
+}
