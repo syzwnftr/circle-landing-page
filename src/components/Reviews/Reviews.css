@@ -2,35 +2,131 @@ h1,
 h2,
 h3,
 h4 {
-  color: black;
   margin: 0;
   text-decoration: none;
+  padding: 0;
 }
 
 .reviews-container {
-  outline: 1px solid black;
   margin-top: 12rem;
   padding: 0rem 3.75rem;
+  padding-bottom: 5rem;
+  text-align: center;
 }
 
 .reviews-item-wrapper {
+  /* outline: 1px solid black; */
+  max-width: 100%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
+  margin-top: 3rem;
 }
 
 .reviews-item {
-  outline: 1px solid black;
+  flex-basis: 30%;
+}
+
+.review-title {
+  font-size: 4rem;
+  color: #333333;
+  font-weight: 400;
 }
 
 .reviews-ava {
-  text-align: center;
+  height: 160px;
+  position: relative;
 }
 
 .reviews-ava img {
-  max-width: 120px;
+  height: 120px;
 }
 
 .reviews-desc {
-  text-align: center;
+  margin-top: 2rem;
+}
+
+.student-name {
+  color: #333333;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.student-review {
+  margin-top: 1rem;
+  font-size: 1.15rem;
+  line-height: 2;
+  color: #5d5a57;
+}
+
+.sr-div {
+  padding: 0 3rem;
+}
+
+.spot {
+  max-width: 25px;
+  position: absolute;
+}
+
+.anna-spot {
+  top: 60px;
+  left: 130px;
+}
+
+.black-outline {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  outline: 2px solid black;
+  border-radius: 100%;
+}
+
+.bo-anna {
+  top: 20px;
+  left: 125px;
+}
+
+.black-dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+.bd-anna {
+  top: 15px;
+  right: 120px;
+}
+
+.mykola-spot {
+  top: 50px;
+  right: 120px;
+}
+
+.bo-mykola {
+  top: 15px;
+  right: 120px;
+  width: 22px;
+  height: 22px;
+}
+
+.bd-mykola {
+  top: 25px;
+  left: 115px;
+}
+
+.natsya-spot {
+  bottom: 80px;
+  right: 120px;
+}
+
+.bo-natsya {
+  bottom: 30px;
+  right: 120px;
+}
+
+.bd-natsya {
+  top: 35px;
+  left: 100px;
 }
