@@ -43,8 +43,7 @@
   border-radius: 3rem;
   padding: 0 1rem;
   background-color: transparent;
-  border: none;
-  outline: 1px solid #61acbb;
+  border: 1px solid #61acbb;
   color: #fff;
   font-size: 1.1rem;
   margin-right: 1rem;
@@ -53,6 +52,7 @@
 .btnSubmit {
   background-color: #ebc7b5;
   height: 60px;
+  font-size: 1.1rem;
 }
 
 .btnSubmit:hover {
