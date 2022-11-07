@@ -112,3 +112,59 @@
   color: #656565;
   font-weight: 400;
 }
+
+.footer-cright-socmed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-cright {
+  /* outline: 1px solid lime; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-cright img {
+  max-width: 100%;
+  margin-right: 0.5rem;
+}
+
+.footer-cright p {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: #333130;
+  font-weight: 600;
+}
+
+.footer-socmed-items .link {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.footer-socmed-items svg {
+  outline: 2px solid #dad0c9;
+  border-radius: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#icon {
+  fill: #5d5b5b;
+}
+
+.link:hover svg {
+  background-color: #298ea3;
+}
+
+.link:hover #icon {
+  fill: white;
+}
+
+.link:hover svg {
+  outline: 2px solid #298ea3;
+}
