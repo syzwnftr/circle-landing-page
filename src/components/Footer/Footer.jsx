@@ -2,6 +2,8 @@ import './Footer.css';
 import LogoColor from '../../images/logo-color.svg';
 import LogoCopyright from '../../images/logo-copyright.svg';
 import DashVertical from '../../images/dash-vertical.svg';
+import Heart from '../../images/follow-heart.svg';
+
 
 const Footer = () => {
     return (
@@ -72,6 +74,13 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
+            </div>
+
+            <div className="footer-like-follow">
+                <img src={Heart} alt="" />
+                <p>
+                    <a href="https://webflow.com/made-in-webflow/website/Sircle-Website" target="_blank">Like</a> & <a href="https://webflow.com/halolab" target="_blank">Follow</a> from you. New free to use projects from us.
+                </p>
             </div>
         </div>
     )
