@@ -10,7 +10,6 @@
 }
 
 .courses-desc {
-  /* outline: 1px solid white; */
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -25,7 +24,6 @@
 }
 
 .courses-desc h3 {
-  /* outline: 1px solid red; */
   margin: 0;
   flex-basis: 45%;
   margin-left: 2rem;
@@ -91,7 +89,6 @@
 }
 
 .courses-item-desc h3 {
-  /* outline: 1px solid red; */
   width: auto;
   margin: 0;
   margin-top: 1rem;
@@ -101,7 +98,6 @@
 }
 
 .read-more {
-  /* outline: 1px solid red; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
