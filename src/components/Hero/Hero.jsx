@@ -31,24 +31,20 @@ const Hero = () => {
                     <img src={Leave2} alt="" className="leave-2" />
                 </div>
             </div>
-            <Fade duration='1500' direction="up" triggerOnce="true" fraction='1'>
-                <div className="hero-logo-wrapper">
-                    <div className="hero-logo">
-                        <img src={Logo1} alt="" />
-                    </div>
-                    <div className="hero-logo">
-                        <img src={Logo2} alt="" />
-                    </div>
-                    <div className="hero-logo">
-                        <img src={Logo3} alt="" />
-                    </div>
-                    <div className="hero-logo">
-                        <img src={Logo4} alt="" />
-                    </div>
+            <div className="hero-logo-wrapper">
+                <div className="hero-logo">
+                    <img src={Logo1} alt="" />
                 </div>
-            </Fade>
-
-
+                <div className="hero-logo">
+                    <img src={Logo2} alt="" />
+                </div>
+                <div className="hero-logo">
+                    <img src={Logo3} alt="" />
+                </div>
+                <div className="hero-logo">
+                    <img src={Logo4} alt="" />
+                </div>
+            </div>
             <Fade duration='1500' direction="up" triggerOnce="true" fraction='0.8'>
                 <div className="hero-stat">
                     <div className="hero-stat-wrapper">
