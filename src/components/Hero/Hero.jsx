@@ -32,10 +32,10 @@ const Hero = () => {
                 </div>
             </div>
             <div className="hero-logo-wrapper">
-                <div className="hero-logo">
+                <div className="hero-logo alt">
                     <img src={Logo1} alt="" />
                 </div>
-                <div className="hero-logo">
+                <div className="hero-logo alt">
                     <img src={Logo2} alt="" />
                 </div>
                 <div className="hero-logo">
@@ -45,35 +45,34 @@ const Hero = () => {
                     <img src={Logo4} alt="" />
                 </div>
             </div>
-            <Fade duration='1500' direction="up" triggerOnce="true" fraction='0.8'>
-                <div className="hero-stat">
-                    <div className="hero-stat-wrapper">
-                        <div className="hero-stat-num">
-                            <h3 className="t">200+</h3>
-                            <img src={Numb} alt="" className="numb" />
-                        </div>
-                        <p>Ideal courses to sell physical and digital products from your site
-                            on WordPress.com</p>
-                        <img src={Dash} alt="" className="dash" />
-
+            {/* <Fade duration='1500' direction="up" triggerOnce="true" fraction='0.8'> */}
+            <div className="hero-stat">
+                <div className="hero-stat-wrapper">
+                    <div className="hero-stat-num">
+                        <h3 className="t">200+</h3>
+                        <img src={Numb} alt="" className="numb" />
                     </div>
-                    <div className="hero-stat-wrapper">
-                        <div className="hero-stat-num">
-                            <h3 className="t">150+</h3>
-                            <img src={Numb} alt="" className="numb" />
-                        </div>
-                        <p>Experts share their knowledge on building and growing a web presence.</p>
-                        <img src={Dash} alt="" className="dash" />
-                    </div>
-                    <div className="hero-stat-wrapper">
-                        <div className="hero-stat-num">
-                            <h3 className="t">10k+</h3>
-                            <img src={Numb} alt="" className="numb" />
-                        </div>
-                        <p>Small businesses and online stores call WordPress.com home. No code, no complexities.</p>
-                    </div>
+                    <p>Ideal courses to sell physical and digital products from your site
+                        on WordPress.com</p>
+                    <img src={Dash} alt="" className="dash" />
                 </div>
-            </Fade>
+                <div className="hero-stat-wrapper">
+                    <div className="hero-stat-num">
+                        <h3 className="t">150+</h3>
+                        <img src={Numb} alt="" className="numb" />
+                    </div>
+                    <p>Experts share their knowledge on building and growing a web presence.</p>
+                    <img src={Dash} alt="" className="dash" />
+                </div>
+                <div className="hero-stat-wrapper">
+                    <div className="hero-stat-num">
+                        <h3 className="t">10k+</h3>
+                        <img src={Numb} alt="" className="numb" />
+                    </div>
+                    <p>Small businesses and online stores call WordPress.com home. No code, no complexities.</p>
+                </div>
+            </div>
+            {/* </Fade> */}
         </div>
     )
 }

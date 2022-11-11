@@ -222,6 +222,29 @@ button {
 }
 
 @media screen and (max-width: 1025px) {
+  .hero-desc {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-desc-left {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    margin-bottom: 2rem;
+  }
+
+  .hero-desc-left h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* .hero-desc > * {
+    outline: 1px solid lime;
+  } */
+
   .hero-logo-wrapper {
     /* outline: 1px solid lime; */
     margin: 0 auto;
