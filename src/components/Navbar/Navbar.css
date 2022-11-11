@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
 
 .nav-wrapper {
+  /* outline: 1px solid lime; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,4 +93,42 @@ button:hover:before {
   right: 0;
   left: 0;
   opacity: 1;
+}
+
+/* .nav-items {
+  outline: 1px solid lime;
+} */
+
+.hamburger {
+  cursor: pointer;
+}
+
+.hamburger .lineStroke {
+  background-color: #fff;
+  width: 25px;
+  height: 2px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.lineStroke.mid {
+  margin-top: 7px;
+}
+
+.lineStroke.bottom {
+  margin-top: 7px;
+}
+
+@media screen and (max-width: 1220px) {
+  .link {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .nav-items.searchSignIn,
+  .nav-items.links {
+    display: none;
+  }
 }
