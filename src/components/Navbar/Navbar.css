@@ -101,6 +101,7 @@ button:hover:before {
 
 .hamburger {
   cursor: pointer;
+  display: none;
 }
 
 .hamburger .lineStroke {
@@ -126,9 +127,26 @@ button:hover:before {
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1025px) {
   .nav-items.searchSignIn,
   .nav-items.links {
     display: none;
+  }
+
+  .hamburger {
+    cursor: pointer;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .logo {
+    max-width: 85%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    max-width: 70%;
   }
 }
