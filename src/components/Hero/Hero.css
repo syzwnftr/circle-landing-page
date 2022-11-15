@@ -11,7 +11,7 @@
 }
 
 .hero-desc {
-  /* outline: 1px solid black; */
+  outline: 1px solid black;
   display: flex;
   justify-content: space-between;
   margin-top: 5rem;
@@ -75,6 +75,7 @@ button {
 }
 
 .hero-desc-right {
+  outline: 1px solid black;
   position: relative;
 }
 
@@ -271,7 +272,6 @@ button {
     margin: 0 auto;
     margin-top: 3rem;
     flex-direction: column;
-    justify-content: around;
   }
 
   .hero-stat-wrapper {
@@ -281,5 +281,79 @@ button {
 
   .dash {
     display: none;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .hero-container {
+    padding: 2.5rem 2rem;
+  }
+
+  .hero-desc {
+    max-width: 100%;
+  }
+
+  .hero-desc-left {
+    width: 100%;
+  }
+
+  .hero-desc-right {
+    width: 100%;
+  }
+
+  .men {
+    width: 100%;
+  }
+
+  .hero-plane,
+  .leave-1,
+  .leave-2 {
+    display: none;
+  }
+}
+/* 
+@media screen and (max-width: 520px) {
+  .hero-desc-left h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-desc-left h3 {
+    width: auto;
+    font-size: 1.2rem;
+  }
+
+  .btnStart {
+    padding: 1rem 1.5rem;
+    font-size: 0.85rem;
+  }
+} */
+
+@media screen and (max-width: 520px) {
+  .hero-container {
+    padding: 2.5rem 2rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+  }
+
+  .hero-desc-left h1 {
+    font-size: 3rem;
+  }
+
+  .hero-desc-left h3 {
+    width: auto;
+    font-size: 1.4rem;
+  }
+
+  .btnStart {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+  }
+  .hero-stat {
+    max-width: 100%;
+    border-radius: 2rem;
+  }
+
+  .hero-stat-wrapper {
+    width: auto;
   }
 }
