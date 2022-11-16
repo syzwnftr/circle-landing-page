@@ -103,3 +103,33 @@
   top: 0;
   right: 0;
 }
+
+@media screen and (max-width: 1260px) {
+  .syllabus-container {
+    flex-direction: column;
+  }
+
+  .syllabus-step h2 {
+    text-align: center;
+  }
+
+  .syllabus-step {
+    outline: 1px solid lime;
+    margin-top: 5rem;
+  }
+
+  .syllabus-items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .syllabus-items {
+    outline: 1px solid red;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* flex-basis: 30%; */
+    max-width: 70%;
+  }
+}
