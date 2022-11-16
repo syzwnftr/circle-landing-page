@@ -19,8 +19,8 @@ const Navbar = () => {
                     <img src={Search} alt="" className='search' />
                     <button>Sign In</button>
                 </div>
-                <div className="nav-items">
-                    <div className="hamburger">
+                <div className="nav-items hamburger">
+                    <div className="">
                         <span className='lineStroke'></span>
                         <span className='lineStroke mid'></span>
                         <span className='lineStroke bottom'></span>
