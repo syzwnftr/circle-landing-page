@@ -114,7 +114,6 @@
   }
 
   .syllabus-step {
-    outline: 1px solid lime;
     margin-top: 5rem;
   }
 
@@ -126,10 +125,54 @@
   }
 
   .syllabus-items {
-    outline: 1px solid red;
-    justify-content: flex-start;
-    align-items: flex-start;
-    /* flex-basis: 30%; */
     max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .syllabus-items {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .syllabus-container {
+    padding: 0 2rem;
+  }
+
+  .syllabus-img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .syllabus-step {
+    max-width: 100%;
+  }
+
+  .syllabus-items {
+    max-width: 100%;
+  }
+
+  .syllabus-step h2 {
+    font-size: 2rem;
+  }
+
+  .syllabus-items {
+    flex-direction: column;
+  }
+
+  .items-desc {
+    margin-top: 4rem;
+    max-width: 100%;
+  }
+
+  .syllabus-arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .item-title {
+    font-size: 1.4rem;
   }
 }
